@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeepFakeReport>
+	<Image>test.jpg</Image>
+	<FinalVerdict>
+		<Label>Fake</Label>
+		<AvgConfidence>34.78</AvgConfidence>
+	</FinalVerdict>
+	<Models>
+		<ResNet50>
+			<Label>FAKE</Label>
+			<Confidence>33.15</Confidence>
+		</ResNet50>
+		<EfficientNetB4>
+			<Label>REAL</Label>
+			<Confidence>44.2</Confidence>
+		</EfficientNetB4>
+		<InceptionV3>
+			<Label>FAKE</Label>
+			<Confidence>41.72</Confidence>
+		</InceptionV3>
+		<MobileNetV2>
+			<Label>REAL</Label>
+			<Confidence>38.92</Confidence>
+		</MobileNetV2>
+		<Xception>
+			<Label>FAKE</Label>
+			<Confidence>15.93</Confidence>
+		</Xception>
+	</Models>
+</DeepFakeReport>
