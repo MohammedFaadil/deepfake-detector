@@ -1,7 +1,7 @@
 # === Core Frameworks ===
 streamlit==1.35.0
-tensorflow==2.12.0        # ✅ protobuf ≥3.20 supported
-numpy==1.24.3
+tensorflow==2.12.0
+numpy==1.23.5
 flask==2.3.3
 requests==2.31.0
 
@@ -22,11 +22,11 @@ xmltodict==0.13.0
 typing-extensions==4.5.0
 scikit-learn==1.2.2
 
-# === (Optional) PDF / Model Conversion Tools ===
+# === PDF / Model Conversion Tools ===
 pdf2image==1.16.3
 PyMuPDF==1.22.5
 
-# === Keras & Protobuf ===
-keras==2.12.0              # ✅ Should match TensorFlow
+# === Keras & Model Serialization ===
+keras==2.12.0
 h5py==3.1.0
-protobuf==3.20.3           # ✅ Compatible with TF 2.12 and Streamlit
+protobuf==3.20.3
