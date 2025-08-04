@@ -1,32 +1,9 @@
-# === Core Frameworks ===
-streamlit==1.35.0
 tensorflow==2.12.0
 numpy==1.23.5
-flask==2.3.3
-requests==2.31.0
-
-# === Image Handling ===
-Pillow==9.5.0
 opencv-python==4.9.0.80
-
-# === Visualization ===
-matplotlib==3.7.3
-plotly==5.21.0
-pandas==2.0.3
-
-# === Reporting ===
-fpdf==1.7.2
-xmltodict==0.13.0
-
-# === Misc / Backend Support ===
-typing-extensions==4.5.0
-scikit-learn==1.2.2
-
-# === PDF / Model Conversion Tools ===
-pdf2image==1.16.3
-PyMuPDF==1.22.5
-
-# === Keras & Model Serialization ===
+pillow
+streamlit
+h5py
+scikit-learn
 keras==2.12.0
-h5py==3.1.0
-protobuf==3.20.3
+matplotlib
